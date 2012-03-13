@@ -8,6 +8,10 @@
 
 #import "MapViewController_iPad.h"
 
+#import "AppData.h"
+
+#import "BusinessViewController_iPad.h"
+
 @interface MapViewController_iPad ()
 
 @end
@@ -16,6 +20,13 @@
 
 - (void) openBusiness:(id)sender {
     [super openBusiness:sender];
+    [super openBusiness:sender];
+    BusinessViewController_iPad *businessViewController = [[BusinessViewController_iPad alloc] initWithNibName:@"BusinessViewController_iPad" bundle:nil];
+    int nid = [sender tag];
+    businessViewController.business = [[AppData sharedInstance] businessForNodeId:nid];
+    businessViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+    [self presentModalViewController:businessViewController animated:YES];
+    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

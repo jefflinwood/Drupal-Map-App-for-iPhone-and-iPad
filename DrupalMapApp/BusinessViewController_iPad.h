@@ -10,4 +10,6 @@
 
 @interface BusinessViewController_iPad : BusinessViewController
 
+- (IBAction)done:(id)sender;
+
 @end
