@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import "AppHelper.h"
+
+#import "MapViewController_iPad.h"
+#import "MapViewController_iPhone.h"
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -16,7 +21,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    if ([AppHelper iPad]) {
+        MapViewController_iPad *mapViewController = [[MapViewController_iPad alloc] initWithNibName:@"MapViewController_iPad" bundle:nil];
+        self.window.rootViewController = mapViewController;
+    } else {
+        MapViewController_iPhone *mapViewController = [[MapViewController_iPhone alloc] initWithNibName:@"MapViewController_iPhone" bundle:nil];
+        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+        self.window.rootViewController = navController;
+    }
     [self.window makeKeyAndVisible];
     return YES;
 }

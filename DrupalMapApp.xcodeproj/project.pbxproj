@@ -13,6 +13,34 @@
 		28D655E2150BA72900D9A71E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28D655E0150BA72900D9A71E /* InfoPlist.strings */; };
 		28D655E4150BA72900D9A71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655E3150BA72900D9A71E /* main.m */; };
 		28D655E8150BA72900D9A71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655E7150BA72900D9A71E /* AppDelegate.m */; };
+		28D65605150BA79800D9A71E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655F1150BA79800D9A71E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65606150BA79800D9A71E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655F3150BA79800D9A71E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65607150BA79800D9A71E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655F5150BA79800D9A71E /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65608150BA79800D9A71E /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655F7150BA79800D9A71E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65609150BA79800D9A71E /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655F9150BA79800D9A71E /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D6560A150BA79800D9A71E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655FB150BA79800D9A71E /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D6560B150BA79800D9A71E /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D655FE150BA79800D9A71E /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D6560C150BA79800D9A71E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65600150BA79800D9A71E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D6560D150BA79800D9A71E /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65602150BA79800D9A71E /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D6560E150BA79800D9A71E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65604150BA79800D9A71E /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65611150BAE0E00D9A71E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D65610150BAE0E00D9A71E /* MapKit.framework */; };
+		28D65614150BAE3700D9A71E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65613150BAE3700D9A71E /* MapViewController.m */; };
+		28D65618150BAE5600D9A71E /* MapViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65616150BAE5600D9A71E /* MapViewController_iPhone.m */; };
+		28D65619150BAE5600D9A71E /* MapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D65617150BAE5600D9A71E /* MapViewController_iPhone.xib */; };
+		28D6561D150BAE6B00D9A71E /* MapViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6561B150BAE6B00D9A71E /* MapViewController_iPad.m */; };
+		28D6561E150BAE6B00D9A71E /* MapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D6561C150BAE6B00D9A71E /* MapViewController_iPad.xib */; };
+		28D65625150BB01800D9A71E /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65621150BB01800D9A71E /* AppData.m */; };
+		28D65626150BB01800D9A71E /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65623150BB01800D9A71E /* AppHelper.m */; };
+		28D6562B150BB39F00D9A71E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28D65628150BB39F00D9A71E /* SVProgressHUD.bundle */; };
+		28D6562C150BB39F00D9A71E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6562A150BB39F00D9A71E /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28D65630150BB92200D9A71E /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6562F150BB92200D9A71E /* Node.m */; };
+		28D65633150BB96B00D9A71E /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65632150BB96B00D9A71E /* Business.m */; };
+		28D6563F150BBCD100D9A71E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6563E150BBCD100D9A71E /* CoreLocation.framework */; };
+		28D65643150E19F700D9A71E /* BusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65642150E19F700D9A71E /* BusinessViewController.m */; };
+		28D65647150E1A1200D9A71E /* BusinessViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65645150E1A1200D9A71E /* BusinessViewController_iPhone.m */; };
+		28D65648150E1A1200D9A71E /* BusinessViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D65646150E1A1200D9A71E /* BusinessViewController_iPhone.xib */; };
+		28D6564C150E1A2A00D9A71E /* BusinessViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6564A150E1A2A00D9A71E /* BusinessViewController_iPad.m */; };
+		28D6564D150E1A2A00D9A71E /* BusinessViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +48,63 @@
 		28D655D7150BA72900D9A71E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28D655D9150BA72900D9A71E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28D655DB150BA72900D9A71E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28D655DF150BA72900D9A71E /* DrupalMapApp-Info.plist */ = {isa = PBXFileReference; path = "DrupalMapApp-Info.plist"; sourceTree = "<group>"; };
+		28D655DF150BA72900D9A71E /* DrupalMapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrupalMapApp-Info.plist"; sourceTree = "<group>"; };
 		28D655E1150BA72900D9A71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28D655E3150BA72900D9A71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28D655E5150BA72900D9A71E /* DrupalMapApp-Prefix.pch */ = {isa = PBXFileReference; path = "DrupalMapApp-Prefix.pch"; sourceTree = "<group>"; };
-		28D655E6150BA72900D9A71E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		28D655E5150BA72900D9A71E /* DrupalMapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrupalMapApp-Prefix.pch"; sourceTree = "<group>"; };
+		28D655E6150BA72900D9A71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28D655E7150BA72900D9A71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28D655F0150BA79800D9A71E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		28D655F1150BA79800D9A71E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		28D655F2150BA79800D9A71E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		28D655F3150BA79800D9A71E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		28D655F4150BA79800D9A71E /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		28D655F5150BA79800D9A71E /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		28D655F6150BA79800D9A71E /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		28D655F7150BA79800D9A71E /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		28D655F8150BA79800D9A71E /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		28D655F9150BA79800D9A71E /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		28D655FA150BA79800D9A71E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		28D655FB150BA79800D9A71E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		28D655FC150BA79800D9A71E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		28D655FD150BA79800D9A71E /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		28D655FE150BA79800D9A71E /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		28D655FF150BA79800D9A71E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		28D65600150BA79800D9A71E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		28D65601150BA79800D9A71E /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		28D65602150BA79800D9A71E /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		28D65603150BA79800D9A71E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		28D65604150BA79800D9A71E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		28D65610150BAE0E00D9A71E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		28D65612150BAE3700D9A71E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		28D65613150BAE3700D9A71E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		28D65615150BAE5600D9A71E /* MapViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController_iPhone.h; sourceTree = "<group>"; };
+		28D65616150BAE5600D9A71E /* MapViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController_iPhone.m; sourceTree = "<group>"; };
+		28D65617150BAE5600D9A71E /* MapViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController_iPhone.xib; sourceTree = "<group>"; };
+		28D6561A150BAE6B00D9A71E /* MapViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController_iPad.h; sourceTree = "<group>"; };
+		28D6561B150BAE6B00D9A71E /* MapViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController_iPad.m; sourceTree = "<group>"; };
+		28D6561C150BAE6B00D9A71E /* MapViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController_iPad.xib; sourceTree = "<group>"; };
+		28D65620150BB01800D9A71E /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppData.h; sourceTree = "<group>"; };
+		28D65621150BB01800D9A71E /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppData.m; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppData.m; sourceTree = "<group>"; };
+		28D65622150BB01800D9A71E /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppHelper.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppHelper.h; sourceTree = "<group>"; };
+		28D65623150BB01800D9A71E /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppHelper.m; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppHelper.m; sourceTree = "<group>"; };
+		28D65624150BB01800D9A71E /* AppNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppNotifications.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppNotifications.h; sourceTree = "<group>"; };
+		28D65628150BB39F00D9A71E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		28D65629150BB39F00D9A71E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		28D6562A150BB39F00D9A71E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		28D6562E150BB92200D9A71E /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		28D6562F150BB92200D9A71E /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		28D65631150BB96B00D9A71E /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		28D65632150BB96B00D9A71E /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		28D6563E150BBCD100D9A71E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		28D65641150E19F700D9A71E /* BusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController.h; sourceTree = "<group>"; };
+		28D65642150E19F700D9A71E /* BusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController.m; sourceTree = "<group>"; };
+		28D65644150E1A1200D9A71E /* BusinessViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController_iPhone.h; sourceTree = "<group>"; };
+		28D65645150E1A1200D9A71E /* BusinessViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController_iPhone.m; sourceTree = "<group>"; };
+		28D65646150E1A1200D9A71E /* BusinessViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessViewController_iPhone.xib; sourceTree = "<group>"; };
+		28D65649150E1A2A00D9A71E /* BusinessViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController_iPad.h; sourceTree = "<group>"; };
+		28D6564A150E1A2A00D9A71E /* BusinessViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController_iPad.m; sourceTree = "<group>"; };
+		28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D6563F150BBCD100D9A71E /* CoreLocation.framework in Frameworks */,
+				28D65611150BAE0E00D9A71E /* MapKit.framework in Frameworks */,
 				28D655D8150BA72900D9A71E /* UIKit.framework in Frameworks */,
 				28D655DA150BA72900D9A71E /* Foundation.framework in Frameworks */,
 				28D655DC150BA72900D9A71E /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +126,9 @@
 		28D655C8150BA72900D9A71E = {
 			isa = PBXGroup;
 			children = (
+				28D6563E150BBCD100D9A71E /* CoreLocation.framework */,
+				28D65610150BAE0E00D9A71E /* MapKit.framework */,
+				28D655EE150BA77000D9A71E /* Third Party */,
 				28D655DD150BA72900D9A71E /* DrupalMapApp */,
 				28D655D6150BA72900D9A71E /* Frameworks */,
 				28D655D4150BA72900D9A71E /* Products */,
@@ -72,6 +156,10 @@
 		28D655DD150BA72900D9A71E /* DrupalMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				28D65640150E19D500D9A71E /* Business View */,
+				28D6562D150BB90A00D9A71E /* Model */,
+				28D6561F150BB00000D9A71E /* App Wide */,
+				28D6560F150BADEE00D9A71E /* Map View */,
 				28D655E6150BA72900D9A71E /* AppDelegate.h */,
 				28D655E7150BA72900D9A71E /* AppDelegate.m */,
 				28D655DE150BA72900D9A71E /* Supporting Files */,
@@ -88,6 +176,106 @@
 				28D655E5150BA72900D9A71E /* DrupalMapApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28D655EE150BA77000D9A71E /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				28D65627150BB39F00D9A71E /* SVProgressHUD */,
+				28D655EF150BA79800D9A71E /* AFNetworking */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		28D655EF150BA79800D9A71E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				28D655F0150BA79800D9A71E /* AFHTTPClient.h */,
+				28D655F1150BA79800D9A71E /* AFHTTPClient.m */,
+				28D655F2150BA79800D9A71E /* AFHTTPRequestOperation.h */,
+				28D655F3150BA79800D9A71E /* AFHTTPRequestOperation.m */,
+				28D655F4150BA79800D9A71E /* AFImageRequestOperation.h */,
+				28D655F5150BA79800D9A71E /* AFImageRequestOperation.m */,
+				28D655F6150BA79800D9A71E /* AFJSONRequestOperation.h */,
+				28D655F7150BA79800D9A71E /* AFJSONRequestOperation.m */,
+				28D655F8150BA79800D9A71E /* AFJSONUtilities.h */,
+				28D655F9150BA79800D9A71E /* AFJSONUtilities.m */,
+				28D655FA150BA79800D9A71E /* AFNetworkActivityIndicatorManager.h */,
+				28D655FB150BA79800D9A71E /* AFNetworkActivityIndicatorManager.m */,
+				28D655FC150BA79800D9A71E /* AFNetworking.h */,
+				28D655FD150BA79800D9A71E /* AFPropertyListRequestOperation.h */,
+				28D655FE150BA79800D9A71E /* AFPropertyListRequestOperation.m */,
+				28D655FF150BA79800D9A71E /* AFURLConnectionOperation.h */,
+				28D65600150BA79800D9A71E /* AFURLConnectionOperation.m */,
+				28D65601150BA79800D9A71E /* AFXMLRequestOperation.h */,
+				28D65602150BA79800D9A71E /* AFXMLRequestOperation.m */,
+				28D65603150BA79800D9A71E /* UIImageView+AFNetworking.h */,
+				28D65604150BA79800D9A71E /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		28D6560F150BADEE00D9A71E /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				28D65612150BAE3700D9A71E /* MapViewController.h */,
+				28D65613150BAE3700D9A71E /* MapViewController.m */,
+				28D65615150BAE5600D9A71E /* MapViewController_iPhone.h */,
+				28D65616150BAE5600D9A71E /* MapViewController_iPhone.m */,
+				28D65617150BAE5600D9A71E /* MapViewController_iPhone.xib */,
+				28D6561A150BAE6B00D9A71E /* MapViewController_iPad.h */,
+				28D6561B150BAE6B00D9A71E /* MapViewController_iPad.m */,
+				28D6561C150BAE6B00D9A71E /* MapViewController_iPad.xib */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		28D6561F150BB00000D9A71E /* App Wide */ = {
+			isa = PBXGroup;
+			children = (
+				28D65620150BB01800D9A71E /* AppData.h */,
+				28D65621150BB01800D9A71E /* AppData.m */,
+				28D65622150BB01800D9A71E /* AppHelper.h */,
+				28D65623150BB01800D9A71E /* AppHelper.m */,
+				28D65624150BB01800D9A71E /* AppNotifications.h */,
+			);
+			name = "App Wide";
+			sourceTree = "<group>";
+		};
+		28D65627150BB39F00D9A71E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				28D65628150BB39F00D9A71E /* SVProgressHUD.bundle */,
+				28D65629150BB39F00D9A71E /* SVProgressHUD.h */,
+				28D6562A150BB39F00D9A71E /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		28D6562D150BB90A00D9A71E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28D6562E150BB92200D9A71E /* Node.h */,
+				28D6562F150BB92200D9A71E /* Node.m */,
+				28D65631150BB96B00D9A71E /* Business.h */,
+				28D65632150BB96B00D9A71E /* Business.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28D65640150E19D500D9A71E /* Business View */ = {
+			isa = PBXGroup;
+			children = (
+				28D65641150E19F700D9A71E /* BusinessViewController.h */,
+				28D65642150E19F700D9A71E /* BusinessViewController.m */,
+				28D65644150E1A1200D9A71E /* BusinessViewController_iPhone.h */,
+				28D65645150E1A1200D9A71E /* BusinessViewController_iPhone.m */,
+				28D65646150E1A1200D9A71E /* BusinessViewController_iPhone.xib */,
+				28D65649150E1A2A00D9A71E /* BusinessViewController_iPad.h */,
+				28D6564A150E1A2A00D9A71E /* BusinessViewController_iPad.m */,
+				28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */,
+			);
+			name = "Business View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D655E2150BA72900D9A71E /* InfoPlist.strings in Resources */,
+				28D65619150BAE5600D9A71E /* MapViewController_iPhone.xib in Resources */,
+				28D6561E150BAE6B00D9A71E /* MapViewController_iPad.xib in Resources */,
+				28D6562B150BB39F00D9A71E /* SVProgressHUD.bundle in Resources */,
+				28D65648150E1A1200D9A71E /* BusinessViewController_iPhone.xib in Resources */,
+				28D6564D150E1A2A00D9A71E /* BusinessViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +347,27 @@
 			files = (
 				28D655E4150BA72900D9A71E /* main.m in Sources */,
 				28D655E8150BA72900D9A71E /* AppDelegate.m in Sources */,
+				28D65605150BA79800D9A71E /* AFHTTPClient.m in Sources */,
+				28D65606150BA79800D9A71E /* AFHTTPRequestOperation.m in Sources */,
+				28D65607150BA79800D9A71E /* AFImageRequestOperation.m in Sources */,
+				28D65608150BA79800D9A71E /* AFJSONRequestOperation.m in Sources */,
+				28D65609150BA79800D9A71E /* AFJSONUtilities.m in Sources */,
+				28D6560A150BA79800D9A71E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				28D6560B150BA79800D9A71E /* AFPropertyListRequestOperation.m in Sources */,
+				28D6560C150BA79800D9A71E /* AFURLConnectionOperation.m in Sources */,
+				28D6560D150BA79800D9A71E /* AFXMLRequestOperation.m in Sources */,
+				28D6560E150BA79800D9A71E /* UIImageView+AFNetworking.m in Sources */,
+				28D65614150BAE3700D9A71E /* MapViewController.m in Sources */,
+				28D65618150BAE5600D9A71E /* MapViewController_iPhone.m in Sources */,
+				28D6561D150BAE6B00D9A71E /* MapViewController_iPad.m in Sources */,
+				28D65625150BB01800D9A71E /* AppData.m in Sources */,
+				28D65626150BB01800D9A71E /* AppHelper.m in Sources */,
+				28D6562C150BB39F00D9A71E /* SVProgressHUD.m in Sources */,
+				28D65630150BB92200D9A71E /* Node.m in Sources */,
+				28D65633150BB96B00D9A71E /* Business.m in Sources */,
+				28D65643150E19F700D9A71E /* BusinessViewController.m in Sources */,
+				28D65647150E1A1200D9A71E /* BusinessViewController_iPhone.m in Sources */,
+				28D6564C150E1A2A00D9A71E /* BusinessViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +405,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -210,7 +424,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -224,6 +438,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrupalMapApp/DrupalMapApp-Prefix.pch";
 				INFOPLIST_FILE = "DrupalMapApp/DrupalMapApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -235,6 +450,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrupalMapApp/DrupalMapApp-Prefix.pch";
 				INFOPLIST_FILE = "DrupalMapApp/DrupalMapApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
