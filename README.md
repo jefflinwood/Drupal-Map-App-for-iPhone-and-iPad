@@ -28,7 +28,8 @@ The URL for your Drupal site is in AppData.m - change the REST URL to match your
 Thoughts/Questions/Improvements?
 -------------
 Send them to jlinwood@gmail.com
-Get in touch with me through my web site http://www.jefflinwood.com/
+
+Or get in touch with me through my web site http://www.jefflinwood.com/
 
 
 
