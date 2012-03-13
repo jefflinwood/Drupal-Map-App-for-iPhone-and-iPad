@@ -11,6 +11,7 @@
 #import "UIImageView+AFNetworking.h"
 
 #import "AppData.h"
+#import "AppHelper.h"
 
 @interface BusinessViewController ()
 
@@ -39,6 +40,7 @@
     if (self.business != nil) {
         self.nameLabel.text = self.business.title;
         self.bodyLabel.text = self.business.body;
+        [AppHelper topAlignLabel:self.bodyLabel height:self.bodyLabel.frame.size.height];
         
         //handle image
         NSURL *imageURL = [NSURL URLWithString:[AppData imageURLFromImageURI:self.business.imageURI]];
