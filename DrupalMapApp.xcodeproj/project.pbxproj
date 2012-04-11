@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28178877153619AC00D5A0D8 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28178873153619AC00D5A0D8 /* AppData.m */; };
+		28178878153619AC00D5A0D8 /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28178875153619AC00D5A0D8 /* AppHelper.m */; };
 		28D655D8150BA72900D9A71E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D655D7150BA72900D9A71E /* UIKit.framework */; };
 		28D655DA150BA72900D9A71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D655D9150BA72900D9A71E /* Foundation.framework */; };
 		28D655DC150BA72900D9A71E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D655DB150BA72900D9A71E /* CoreGraphics.framework */; };
@@ -29,8 +31,6 @@
 		28D65619150BAE5600D9A71E /* MapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D65617150BAE5600D9A71E /* MapViewController_iPhone.xib */; };
 		28D6561D150BAE6B00D9A71E /* MapViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6561B150BAE6B00D9A71E /* MapViewController_iPad.m */; };
 		28D6561E150BAE6B00D9A71E /* MapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D6561C150BAE6B00D9A71E /* MapViewController_iPad.xib */; };
-		28D65625150BB01800D9A71E /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65621150BB01800D9A71E /* AppData.m */; };
-		28D65626150BB01800D9A71E /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D65623150BB01800D9A71E /* AppHelper.m */; };
 		28D6562B150BB39F00D9A71E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28D65628150BB39F00D9A71E /* SVProgressHUD.bundle */; };
 		28D6562C150BB39F00D9A71E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6562A150BB39F00D9A71E /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		28D65630150BB92200D9A71E /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6562F150BB92200D9A71E /* Node.m */; };
@@ -41,9 +41,23 @@
 		28D65648150E1A1200D9A71E /* BusinessViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D65646150E1A1200D9A71E /* BusinessViewController_iPhone.xib */; };
 		28D6564C150E1A2A00D9A71E /* BusinessViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6564A150E1A2A00D9A71E /* BusinessViewController_iPad.m */; };
 		28D6564D150E1A2A00D9A71E /* BusinessViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */; };
+		28D656AA1514C68A00D9A71E /* DIOSComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6569D1514C68A00D9A71E /* DIOSComment.m */; };
+		28D656AB1514C68A00D9A71E /* DIOSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6569F1514C68A00D9A71E /* DIOSFile.m */; };
+		28D656AC1514C68A00D9A71E /* DIOSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D656A11514C68A00D9A71E /* DIOSNode.m */; };
+		28D656AD1514C68A00D9A71E /* DIOSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D656A31514C68A00D9A71E /* DIOSSession.m */; };
+		28D656AE1514C68A00D9A71E /* DIOSTaxonomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D656A51514C68A00D9A71E /* DIOSTaxonomy.m */; };
+		28D656AF1514C68A00D9A71E /* DIOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D656A71514C68A00D9A71E /* DIOSUser.m */; };
+		28D656B01514C68A00D9A71E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 28D656A81514C68A00D9A71E /* LICENSE */; };
+		28D656B11514C68A00D9A71E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 28D656A91514C68A00D9A71E /* README.md */; };
+		28D656B41514C6EF00D9A71E /* DIOSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D656B31514C6EF00D9A71E /* DIOSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28178872153619AC00D5A0D8 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		28178873153619AC00D5A0D8 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		28178874153619AC00D5A0D8 /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
+		28178875153619AC00D5A0D8 /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
+		28178876153619AC00D5A0D8 /* AppNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNotifications.h; sourceTree = "<group>"; };
 		28D655D3150BA72900D9A71E /* DrupalMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrupalMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D655D7150BA72900D9A71E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28D655D9150BA72900D9A71E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,11 +98,6 @@
 		28D6561A150BAE6B00D9A71E /* MapViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController_iPad.h; sourceTree = "<group>"; };
 		28D6561B150BAE6B00D9A71E /* MapViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController_iPad.m; sourceTree = "<group>"; };
 		28D6561C150BAE6B00D9A71E /* MapViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController_iPad.xib; sourceTree = "<group>"; };
-		28D65620150BB01800D9A71E /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppData.h; sourceTree = "<group>"; };
-		28D65621150BB01800D9A71E /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppData.m; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppData.m; sourceTree = "<group>"; };
-		28D65622150BB01800D9A71E /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppHelper.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppHelper.h; sourceTree = "<group>"; };
-		28D65623150BB01800D9A71E /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppHelper.m; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppHelper.m; sourceTree = "<group>"; };
-		28D65624150BB01800D9A71E /* AppNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppNotifications.h; path = ../../DrupalMobileAppBoilerplateIOS/DrupalMobileAppBoilerplateIOS/App_Wide/AppNotifications.h; sourceTree = "<group>"; };
 		28D65628150BB39F00D9A71E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		28D65629150BB39F00D9A71E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		28D6562A150BB39F00D9A71E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
@@ -105,6 +114,23 @@
 		28D65649150E1A2A00D9A71E /* BusinessViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController_iPad.h; sourceTree = "<group>"; };
 		28D6564A150E1A2A00D9A71E /* BusinessViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController_iPad.m; sourceTree = "<group>"; };
 		28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessViewController_iPad.xib; sourceTree = "<group>"; };
+		28D6569C1514C68A00D9A71E /* DIOSComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSComment.h; sourceTree = "<group>"; };
+		28D6569D1514C68A00D9A71E /* DIOSComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSComment.m; sourceTree = "<group>"; };
+		28D6569E1514C68A00D9A71E /* DIOSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSFile.h; sourceTree = "<group>"; };
+		28D6569F1514C68A00D9A71E /* DIOSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSFile.m; sourceTree = "<group>"; };
+		28D656A01514C68A00D9A71E /* DIOSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSNode.h; sourceTree = "<group>"; };
+		28D656A11514C68A00D9A71E /* DIOSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSNode.m; sourceTree = "<group>"; };
+		28D656A21514C68A00D9A71E /* DIOSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSSession.h; sourceTree = "<group>"; };
+		28D656A31514C68A00D9A71E /* DIOSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSSession.m; sourceTree = "<group>"; };
+		28D656A41514C68A00D9A71E /* DIOSTaxonomy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSTaxonomy.h; sourceTree = "<group>"; };
+		28D656A51514C68A00D9A71E /* DIOSTaxonomy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSTaxonomy.m; sourceTree = "<group>"; };
+		28D656A61514C68A00D9A71E /* DIOSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSUser.h; sourceTree = "<group>"; };
+		28D656A71514C68A00D9A71E /* DIOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSUser.m; sourceTree = "<group>"; };
+		28D656A81514C68A00D9A71E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		28D656A91514C68A00D9A71E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		28D656B21514C6EF00D9A71E /* DIOSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSView.h; sourceTree = "<group>"; };
+		28D656B31514C6EF00D9A71E /* DIOSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSView.m; sourceTree = "<group>"; };
+		28D656B51514CAD200D9A71E /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +207,7 @@
 		28D655EE150BA77000D9A71E /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				28D6569B1514C68A00D9A71E /* drupal-ios-sdk */,
 				28D65627150BB39F00D9A71E /* SVProgressHUD */,
 				28D655EF150BA79800D9A71E /* AFNetworking */,
 			);
@@ -233,11 +260,12 @@
 		28D6561F150BB00000D9A71E /* App Wide */ = {
 			isa = PBXGroup;
 			children = (
-				28D65620150BB01800D9A71E /* AppData.h */,
-				28D65621150BB01800D9A71E /* AppData.m */,
-				28D65622150BB01800D9A71E /* AppHelper.h */,
-				28D65623150BB01800D9A71E /* AppHelper.m */,
-				28D65624150BB01800D9A71E /* AppNotifications.h */,
+				28178872153619AC00D5A0D8 /* AppData.h */,
+				28178873153619AC00D5A0D8 /* AppData.m */,
+				28178874153619AC00D5A0D8 /* AppHelper.h */,
+				28178875153619AC00D5A0D8 /* AppHelper.m */,
+				28178876153619AC00D5A0D8 /* AppNotifications.h */,
+				28D656B51514CAD200D9A71E /* Settings.h */,
 			);
 			name = "App Wide";
 			sourceTree = "<group>";
@@ -276,6 +304,30 @@
 				28D6564B150E1A2A00D9A71E /* BusinessViewController_iPad.xib */,
 			);
 			name = "Business View";
+			sourceTree = "<group>";
+		};
+		28D6569B1514C68A00D9A71E /* drupal-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				28D6569C1514C68A00D9A71E /* DIOSComment.h */,
+				28D6569D1514C68A00D9A71E /* DIOSComment.m */,
+				28D6569E1514C68A00D9A71E /* DIOSFile.h */,
+				28D6569F1514C68A00D9A71E /* DIOSFile.m */,
+				28D656A01514C68A00D9A71E /* DIOSNode.h */,
+				28D656A11514C68A00D9A71E /* DIOSNode.m */,
+				28D656A21514C68A00D9A71E /* DIOSSession.h */,
+				28D656A31514C68A00D9A71E /* DIOSSession.m */,
+				28D656A41514C68A00D9A71E /* DIOSTaxonomy.h */,
+				28D656A51514C68A00D9A71E /* DIOSTaxonomy.m */,
+				28D656A61514C68A00D9A71E /* DIOSUser.h */,
+				28D656A71514C68A00D9A71E /* DIOSUser.m */,
+				28D656A81514C68A00D9A71E /* LICENSE */,
+				28D656A91514C68A00D9A71E /* README.md */,
+				28D656B21514C6EF00D9A71E /* DIOSView.h */,
+				28D656B31514C6EF00D9A71E /* DIOSView.m */,
+			);
+			name = "drupal-ios-sdk";
+			path = "../../vendor/drupal-ios-sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +387,8 @@
 				28D6562B150BB39F00D9A71E /* SVProgressHUD.bundle in Resources */,
 				28D65648150E1A1200D9A71E /* BusinessViewController_iPhone.xib in Resources */,
 				28D6564D150E1A2A00D9A71E /* BusinessViewController_iPad.xib in Resources */,
+				28D656B01514C68A00D9A71E /* LICENSE in Resources */,
+				28D656B11514C68A00D9A71E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +414,21 @@
 				28D65614150BAE3700D9A71E /* MapViewController.m in Sources */,
 				28D65618150BAE5600D9A71E /* MapViewController_iPhone.m in Sources */,
 				28D6561D150BAE6B00D9A71E /* MapViewController_iPad.m in Sources */,
-				28D65625150BB01800D9A71E /* AppData.m in Sources */,
-				28D65626150BB01800D9A71E /* AppHelper.m in Sources */,
 				28D6562C150BB39F00D9A71E /* SVProgressHUD.m in Sources */,
 				28D65630150BB92200D9A71E /* Node.m in Sources */,
 				28D65633150BB96B00D9A71E /* Business.m in Sources */,
 				28D65643150E19F700D9A71E /* BusinessViewController.m in Sources */,
 				28D65647150E1A1200D9A71E /* BusinessViewController_iPhone.m in Sources */,
 				28D6564C150E1A2A00D9A71E /* BusinessViewController_iPad.m in Sources */,
+				28D656AA1514C68A00D9A71E /* DIOSComment.m in Sources */,
+				28D656AB1514C68A00D9A71E /* DIOSFile.m in Sources */,
+				28D656AC1514C68A00D9A71E /* DIOSNode.m in Sources */,
+				28D656AD1514C68A00D9A71E /* DIOSSession.m in Sources */,
+				28D656AE1514C68A00D9A71E /* DIOSTaxonomy.m in Sources */,
+				28D656AF1514C68A00D9A71E /* DIOSUser.m in Sources */,
+				28D656B41514C6EF00D9A71E /* DIOSView.m in Sources */,
+				28178877153619AC00D5A0D8 /* AppData.m in Sources */,
+				28178878153619AC00D5A0D8 /* AppHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +536,7 @@
 				28D655ED150BA72900D9A71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
