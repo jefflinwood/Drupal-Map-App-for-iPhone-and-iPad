@@ -11,8 +11,6 @@
 #import "AFJSONRequestOperation.h"
 #import "SVProgressHUD.h"
 
-#import "DIOSView.h"
-
 #import "AppData.h"
 #import "Business.h"
 
@@ -136,7 +134,7 @@
     } else {
         [SVProgressHUD showWithStatus:@"Retrieving Data"];
         
-        /*NSURL *url = [AppData drupalURLForPath:@"/views/businesses.json"];
+        NSURL *url = [AppData drupalURLForPath:@"/views/businesses.json"];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
             
@@ -149,17 +147,7 @@
         }failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
             [SVProgressHUD dismissWithError:@"Unable to download data" afterDelay:5];
         }];
-        [operation start]; */
-        DIOSView *diosView = [[DIOSView alloc] init];
-        [diosView getView:@"businesses.json" success:^(AFHTTPRequestOperation *operation, id responseObject) {
-            //store results from the view into the application wide data
-            [[AppData sharedInstance] storeResults:responseObject];
-            [self loadMapData];
-            [SVProgressHUD dismissWithSuccess:@"Downloaded"];
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-            [SVProgressHUD dismissWithError:@"Unable to download data" afterDelay:5];
-        }];
-
+        [operation start]; 
     }
     
 }
